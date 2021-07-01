@@ -38,7 +38,7 @@ public class WaitNotify {
         Object c=  new Object();
         Object e=  new Object();
         Object f=  new Object();
-        WaitTest wt =  new WaitTest();
+        WaitNotify wt =  new WaitNotify();
         new Thread(new Runnable() {
             @Override
             public void run() {
